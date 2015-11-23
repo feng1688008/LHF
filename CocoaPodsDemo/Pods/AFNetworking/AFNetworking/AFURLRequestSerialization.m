@@ -388,6 +388,7 @@ forHTTPHeaderField:(NSString *)field
                                 parameters:(id)parameters
                                      error:(NSError *__autoreleasing *)error
 {
+    NSLog(@"asdfasdf");
     NSParameterAssert(method);
     NSParameterAssert(URLString);
 
